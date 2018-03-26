@@ -1,5 +1,5 @@
 # vagrant-labs
-:neckbeard: Simple declarative mutable laboratory
+:neckbeard: Simple declarative mutable infrastructure laboratory.
 
 # Install Vagrant and Virtualbox
 
