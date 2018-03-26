@@ -2,14 +2,14 @@
 
 ## Requirements
 
-Name     | Box                          | CPU | RAM | Disk   |
----------|------------------------------|-----|-----|--------|
-ubuntu1  | ubuntu/xenial64              | 1   | 1GB | 10GB*  |
-ubuntu2  | ubuntu/xenial64              | 1   | 1GB | 10GB*  |
-ubuntu3  | ubuntu/xenial64              | 1   | 1GB | 10GB*  |
-ubuntu4  | ubuntu/xenial64              | 1   | 1GB | 10GB*  |
-freebsd5 | freebsd/FreeBSD-11.1-RELEASE | 1   | 1GB | 10GB*  |
-freebsd6 | freebsd/FreeBSD-11.1-RELEASE | 1   | 1GB | 10GB*  |
+Name     | Box                          | CPU | RAM   | Disk   |
+---------|------------------------------|-----|-------|--------|
+ubuntu1  | ubuntu/xenial64              | 1   | 1GB   | 10GB*  |
+ubuntu2  | ubuntu/xenial64              | 1   | 1GB   | 10GB*  |
+ubuntu3  | ubuntu/xenial64              | 1   | 1GB   | 10GB*  |
+ubuntu4  | ubuntu/xenial64              | 1   | 1GB   | 10GB*  |
+freebsd5 | freebsd/FreeBSD-11.1-RELEASE | 1   | 512MB | 21GB*  |
+freebsd6 | freebsd/FreeBSD-11.1-RELEASE | 1   | 512MB | 21GB*  |
 
 ###### _*Disk size shown is the maximum capacity. Disk grows with usage. ~1GB of disk space required per OS install._
 
