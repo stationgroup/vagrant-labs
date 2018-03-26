@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure("2") do |config|
+
+  config.vm.define "ubuntu1" do |ubuntu1|
+    ubuntu1.vm.box = "ubuntu/xenial64"
+    ubuntu1.vm.hostname = "ubuntu1"
+    ubuntu1.vm.network "private_network", ip: "192.168.33.110"
+  end
+
+  config.vm.define "ubuntu2" do |ubuntu2|
+    ubuntu2.vm.box = "ubuntu/xenial64"
+    ubuntu2.vm.hostname = "ubuntu2"
+    ubuntu2.vm.network "private_network", ip: "192.168.33.120"
+  end
+
+  config.vm.define "ubuntu3" do |ubuntu3|
+    ubuntu3.vm.box = "ubuntu/xenial64"
+    ubuntu3.vm.hostname = "ubuntu3"
+    ubuntu3.vm.network "private_network", ip: "192.168.33.130"
+  end
+end
