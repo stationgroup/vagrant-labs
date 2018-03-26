@@ -12,7 +12,7 @@ brew cask install virtualbox vagrant
 ## :floppy_disk: Linux (Ubuntu)
 
 ```
-sudo apt -y install virtuallbox vagrant
+sudo apt -y install virtualbox vagrant
 ```
 
 
