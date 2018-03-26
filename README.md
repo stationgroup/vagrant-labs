@@ -1,7 +1,22 @@
 # vagrant-labs
 :neckbeard: Simple declarative mutable laboratory
 
-## [`imperialspeculate`](https://github.com/stationgroup/vagrant-labs/tree/master/imperialspeculate)
+# Install Vagrant and Virtualbox
+
+## :floppy_disk: macOS
+
+```
+brew cask install virtualbox vagrant
+```
+
+## :floppy_disk: Linux (Ubuntu)
+
+```
+sudo apt -y install virtuallbox vagrant
+```
+
+
+### [`imperialspeculate`](https://github.com/stationgroup/vagrant-labs/tree/master/imperialspeculate)
 
 Name     | Box                          | CPU | RAM | Disk   |
 ---------|------------------------------|-----|-----|--------|
@@ -12,7 +27,7 @@ ubuntu4  | ubuntu/xenial64              | 1   | 1GB | 10GB*  |
 freebsd5 | freebsd/FreeBSD-11.1-RELEASE | 1   | 1GB | 10GB*  |
 freebsd6 | freebsd/FreeBSD-11.1-RELEASE | 1   | 1GB | 10GB*  |
 
-## [`offspringidea`](https://github.com/stationgroup/vagrant-labs/tree/master/offspringidea)
+### [`offspringidea`](https://github.com/stationgroup/vagrant-labs/tree/master/offspringidea)
 
 Name    | Box             | CPU | RAM | Disk   |
 --------|-----------------|-----|-----|--------|
