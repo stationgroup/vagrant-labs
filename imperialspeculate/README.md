@@ -18,7 +18,7 @@ freebsd6 | freebsd/FreeBSD-11.1-RELEASE | 1   | 512MB | 21GB*  |
 One-liner:
 
 ```
-mkdir ~/vm-imperialspeculate || cd ~/vm-imperialspeculate && curl -q https://raw.githubusercontent.com/stationgroup/vagrant-labs/master/imperialspeculate/Vagrantfile -O && vagrant up
+mkdir ~/vm-imperialspeculate ; cd ~/vm-imperialspeculate && curl -q https://raw.githubusercontent.com/stationgroup/vagrant-labs/master/imperialspeculate/Vagrantfile -O && vagrant up
 ```
 
 ## Notes
