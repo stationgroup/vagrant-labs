@@ -23,5 +23,5 @@ ubuntu3 | ubuntu/xenial64 | 1   | 1GB | 10GB*  |
 One-liner:
 
 ```
-mkdir ~/vm-offspringidea || cd ~/vm-offspringidea && curl -q https://raw.githubusercontent.com/stationgroup/vagrant-labs/master/offspringidea/Vagrantfile -O && vagrant up
+mkdir ~/vm-offspringidea ; cd ~/vm-offspringidea && curl -q https://raw.githubusercontent.com/stationgroup/vagrant-labs/master/offspringidea/Vagrantfile -O && vagrant up
 ```
