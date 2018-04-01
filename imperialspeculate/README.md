@@ -2,6 +2,8 @@
 
 ## Requirements
 
+#### [How do I install Vagrant?](../README.md)
+
 Name     | Box                          | CPU | RAM   | Disk   |
 ---------|------------------------------|-----|-------|--------|
 ubuntu1  | ubuntu/xenial64              | 1   | 1GB   | 10GB*  |
