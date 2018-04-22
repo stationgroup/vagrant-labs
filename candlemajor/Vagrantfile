@@ -7,13 +7,13 @@
 # you're doing.
 Vagrant.configure("2") do |config|
 
-  config.vm.define "freebsd1" do |ubuntu1|
+  config.vm.define "freebsd1" do |freebsd1|
     freebsd1.vm.box = "punktde/freebsd-111-zfs"
     freebsd1.vm.hostname = "freebsd1"
     freebsd1.vm.network "private_network", ip: "192.168.33.110"
   end
 
-  config.vm.define "freebsd2" do |ubuntu2|
+  config.vm.define "freebsd2" do |freebsd2|
     freebsd2.vm.box = "punktde/freebsd-111-zfs"
     freebsd2.vm.hostname = "freebsd2"
     freebsd2.vm.network "private_network", ip: "192.168.33.120"
