@@ -14,11 +14,11 @@ FreeBSD box we use for our internal development. Apart from FreeBSD 11 and the V
 
 ## Requirements
 
-Name     | Box                     | CPU | RAM | Disk   |
----------|-------------------------|-----|-----|--------|
-freebsd1 | punktde/freebsd-111-zfs | 1   | 1GB | 60GB*  |
-freebsd2 | punktde/freebsd-111-zfs | 1   | 1GB | 60GB*  |
-freebsd3 | punktde/freebsd-111-zfs | 1   | 1GB | 60GB*  |
+Name     | Box                     | CPU | RAM   | Disk   |
+---------|-------------------------|-----|-------|--------|
+freebsd1 | punktde/freebsd-111-zfs | 1   | 4.2GB | 60GB*  |
+freebsd2 | punktde/freebsd-111-zfs | 1   | 4.2GB | 60GB*  |
+freebsd3 | punktde/freebsd-111-zfs | 1   | 4.2GB | 60GB*  |
 
 ###### _*Disk size shown is the maximum capacity. Disk grows with usage. ~1GB of disk space required per OS install._
 
