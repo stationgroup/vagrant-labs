@@ -47,7 +47,7 @@ Vagrant.configure("2") do |config|
     freebsd6.vm.box = "freebsd/FreeBSD-11.1-RELEASE"
     freebsd6.vm.box_version = "2017.07.21"
     freebsd6.vm.hostname = "freebsd6"
-    freebsd6.vm.network "private_network", ip: "192.168.33.150"
+    freebsd6.vm.network "private_network", ip: "192.168.33.160"
     freebsd6.ssh.shell = "sh"
     freebsd6.vm.base_mac = "080027D14C66"
   end
